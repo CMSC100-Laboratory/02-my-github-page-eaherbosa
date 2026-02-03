@@ -19,12 +19,6 @@
 
 
 
-Exercise Design Idea
 
-- Formal
-- Simple colors like blue and gray to make it look formal a nd clean
-- Simple design 
-- With images
-- 
 
 
