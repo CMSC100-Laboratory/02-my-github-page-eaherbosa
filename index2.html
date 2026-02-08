@@ -1,105 +1,191 @@
+  <!-- Elaine Ann Karla A. Herbosa -->
+
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-    <title>Sample Web Page 2</title>
-    <link rel="stylesheet" type="text/css" href="flex2.css" />
-    <base target="_blank">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elaine Ann Karla Herbosa Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="port.css">
 </head>
+<body>
 
-
-<body class="roboto-300">
-
+  <!-- Nav bar -->
+  <header class="navbar">
+    <div class="logo">E.A.K.A.H.💙💙💙 </div>
     <nav>
-        <div class="nav_bar">
-            <div class="flex-item">
-                <a href="./sample.html">HTML</a>
-            </div>
-
-            <div class="flex-item">
-                <a href="/css/">CSS</a>
-            </div>
-
-            <div class="flex-item">
-                <a href="/js/">JavaScript</a>
-            </div>
-
-            <div class="flex-item">
-                <a href="/python/">Python</a>
-            </div>
-
-        </div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 5; order: 2;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 3; order: 2;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 2; order: 1;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 2; order: 1;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 3; order: 1;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 1; order: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
+  <!-- Home -->
+  <section class="homepagee" id="home">
+    <div class="homepagee-content">
+      <span class="badge">UPLB • Computer Science Student</span>
+      <h1>Elaine Ann Karla<span>Herbosa</span></h1>
+      <h2>Frontend Developer & UI/UX Designer</h2>
+      <p>Computer Science student passionate about creating beautiful, functional web experiences. I focus on clean, simple, and user-friendly design.</p>
+      <div class="buttons">
+        <a href="#" class="btn primary" onclick="return false;">20 Years Old</a>
+        <a href="#" class="btn outline" onclick="return false;">Graduating Student</a>
+      </div>
     </div>
-
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
+    <div class="homepagee-pic">
+      <div class="profile-frame">
+        <img src="images/profii.png" alt="Elaine's Photo">
+      </div>
+      <div class="decorative-shape"></div>
     </div>
+  </section>
+
+  <!-- About -->
+  <section class="aboutme" id="about">
+    <div class="aboutme-wrapper">
+      <div class="aboutme-left">
+        <h2 class="section-title">About Me</h2>
+        <p class="aboutme-intro">Hola! I’m <strong>Elaine Ann Karla A. Herbosa</strong>, but you can call me <strong>Ayen</strong>. I’m a graduating BS Computer Science student from <strong>University of the Philippines Los Baños</strong>.</p>
+        <p class="aboutme-desc">I enjoy building clean, functional, and user-friendly web experiences. I’m especially interested in frontend development and UI/UX design, where I can combine logic, creativity, and problem-solving.</p>
+        <p class="aboutme-desc">I value simple design, readable code, and continuous learning through hands-on projects.</p>
+      </div>
+
+      <div class="aboutme-right">
+        <div class="aboutme-box">
+          <h3>Education</h3>
+          <p>
+            <strong>Elementary:</strong> St. Therese<br>
+            <strong>High School:</strong> Calamba Institute<br>
+            <strong>College:</strong> UPLB
+          </p>
+        </div>
+
+        <div class="aboutme-box">
+          <h3>Interests</h3>
+          <ul>
+            <li>Frontend Development</li>
+            <li>UI / UX Design</li>
+            <li>Responsive Web Design</li>
+            <li>Coffee Shop Business</li>
+          </ul>
+        </div>
+
+        <div class="aboutme-box">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Sports</li>
+            <li>Gaming</li>
+            <li>Digital Art & Drawing</li>
+            <li>Designing</li>
+            <li>Reading & Writing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="mySkills" id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-sub">Technologies & abilities I excel at</p>
+      <div class="mySkills-grid">
+        <div class="mySkills-item">
+          <img src="images/leaderr.jpg" alt="Leadership">
+          <p class="skill-name">Leadership</p>
+        </div>
+        <div class="mySkills-item">
+          <img src="images/time.jpg" alt="Time Management">
+          <p class="skill-name">Time Management</p>
+        </div>
+        <div class="mySkills-item">
+          <img src="images/collaB.jpg" alt="Collaboration">
+          <p class="skill-name">Problem Solving</p>
+        </div>
+        <div class="mySkills-item">
+          <img src="images/code.jpg" alt="Coding">
+          <p class="skill-name">HTML & CSS </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Projects -->
+  <section class="myProjects" id="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-sub">Some things I've built</p>
+      <div class="myProjects-list">
+        <div class="myProjects-card">
+          <h3>Portfolio Website</h3>
+          <p>A personal project showcasing my skills and creativity.</p>
+        </div>
+        <div class="myProjects-card">
+          <h3>Grocery System</h3>
+          <p>A project designed to manage items efficiently.</p>
+        </div>
+        <div class="myProjects-card">
+          <h3>Mini Amis System</h3>
+          <p>An enrollment system created for learning purposes.</p>
+        </div>
+        <div class="myProjects-card">
+          <h3>Online Silog Shop</h3>
+          <p>A small project demonstrating basic shop management.</p>
+        </div>
+        <div class="myProjects-card">
+          <h3>Resort Online Booking</h3>
+          <p>A project built to simulate a booking system.</p>
+        </div>
+        <div class="myProjects-card">
+          <h3>Gym Membership Card Generator</h3>
+          <p>A simple tool to generate membership cards for clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="getInTouch" id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-sub">Open for collaborations and opportunities</p>
+      <p class="contact-location">📍 Masili, Calamba, Laguna</p>
+      <div class="getInTouch-links">
+        <a href="mailto:eaherbosa@up.edu.ph" class="getInTouch-item" target="_blank">
+          <div class="contact-icon">📧</div>
+          <span>Email</span>
+        </a>
+        <a href="https://github.com/eaherbosa" class="getInTouch-item" target="_blank">
+          <div class="contact-icon">🐱</div>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/herbosa" class="getInTouch-item" target="_blank">
+          <div class="contact-icon">🔗</div>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://www.instagram.com/neyaeak" class="getInTouch-item" target="_blank">
+          <div class="contact-icon">📸</div>
+          <span>Instagram</span>
+        </a>
+        <a href="https://www.facebook.com/ayen.herbosa.5" class="getInTouch-item" target="_blank">
+          <div class="contact-icon">📘</div>
+          <span>Facebook</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-note">© 2026 PORTFOLIO - Elaine Ann Karla Herbosa.</p>
+  </footer>
+
 </body>
-
 </html>
